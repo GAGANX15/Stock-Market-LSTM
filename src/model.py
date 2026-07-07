@@ -19,3 +19,6 @@ def build_lstm(input_shape):
     )
 
     return model
+if __name__ == "__main__":
+    model = build_lstm((60, 1))
+    model.summary()
