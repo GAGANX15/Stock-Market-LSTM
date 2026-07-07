@@ -1,20 +1,20 @@
 # Stock Market Trend Forecasting using LSTM
 
-## Overview
+## Project Overview
 
-This project predicts the next day's stock closing price using a Long Short-Term Memory (LSTM) neural network trained on historical Apple stock prices.
+This project predicts future stock closing prices using a Long Short-Term Memory (LSTM) neural network trained on historical Apple stock price data.
 
 ## Features
 
 - Data preprocessing
 - Exploratory Data Analysis (EDA)
-- Data normalization using MinMaxScaler
-- LSTM-based prediction model
-- Performance evaluation
-- Visualization of training loss
-- Actual vs Predicted stock prices
+- Data normalization
+- Sequence generation
+- LSTM model training
+- Model evaluation
+- Prediction visualization
 
-## Technologies
+## Technologies Used
 
 - Python
 - TensorFlow
@@ -26,9 +26,10 @@ This project predicts the next day's stock closing price using a Long Short-Term
 
 ## Dataset
 
-Apple stock historical data from the Kaggle Price & Volume dataset.
+- Apple historical stock prices
+- Source: Kaggle Price & Volume Dataset
 
-## Project Structure
+## Folder Structure
 
 ```
 Stock-Market-LSTM
@@ -45,11 +46,11 @@ Stock-Market-LSTM
 
 ## Results
 
-The model successfully learns historical price trends and predicts future closing prices with low prediction error.
+The trained LSTM model predicts stock closing prices by learning historical price patterns. The project includes loss curves and an Actual vs Predicted comparison for evaluation.
 
 ## Future Improvements
 
-- GRU model comparison
+- GRU model implementation
 - Hyperparameter tuning
 - Multi-stock forecasting
-- Attention-based LSTM
+- Transformer-based forecasting
